@@ -12,7 +12,6 @@ FORMATOS
 - SS(segund0)
 */
 
-
 /*
 TO CHAR
 */
@@ -22,7 +21,6 @@ SELECT NOME, TO_CHAR(DATA_DE_NASCIMENTO, 'DD "DE" MONTH "DE" YYYY, DAY') FROM TA
 /*
 TO DATE
 */
-
 
 /*
 SYSDATE
