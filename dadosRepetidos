@@ -1,0 +1,5 @@
+# Encontrando dados Repetidos em variável
+SELECT coluna, COUNT(*)
+FROM nome_da_tabela
+GROUP BY coluna
+HAVING COUNT(*) > 1;
